@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body,
+.container,
+.card,
+.card-left {
+	display: flex;
+	justify-content: center;
+}
+body {
+	align-items: center;
+	height: 100vh;
+}
+.container {
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100vw;
+	max-width: 1200px;
+	height: 100vh;
+	max-height: 800px;
+	gap: 10px;
+}
+
+.card {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	perspective: 1000px;
+}
+
+.card-right,
+.card-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.6s, opacity 1s;
+	border-radius: 15px;
+}
+
+.card-right {
+	background: radial-gradient(
+		circle,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 85%,
+		rgba(15, 77, 89, 1) 100%
+	);
+	z-index: 1;
+}
+
+.card-left {
+	background: rgb(217, 214, 220);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 20% 0 20% 0;
+}
+
+.opacity-zero {
+	opacity: 0;
+
+	transition: transform 0.6s, opacity 1s;
+}
+.opacity-one {
+	opacity: 1;
+	transition: transform 0.6s, opacity 1s;
+}
