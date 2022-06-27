@@ -4,26 +4,26 @@ const game = {
   cardsRight: '',
   activeCard: [],
   cardImages: [
-    '../img/js.png',
-    '../img/html.png',
-    '../img/css.png',
-    '../img/react.png',
-    '../img/angular.png',
-    '../img/vue.png',
-    '../img/php.png',
-    '../img/python.png',
-    '../img/java.png',
-    '../img/c.png',
-    '../img/js.png',
-    '../img/html.png',
-    '../img/css.png',
-    '../img/react.png',
-    '../img/angular.png',
-    '../img/vue.png',
-    '../img/php.png',
-    '../img/python.png',
-    '../img/java.png',
-    '../img/c.png',
+    'url(../img/js.png)',
+    'url(../img/html.png)',
+    'url(../img/css.png)',
+    'url(../img/react.png)',
+    'url(../img/angular.png)',
+    'url(../img/vue.png)',
+    'url(../img/php.png)',
+    'url(../img/python.png)',
+    'url(../img/java.png)',
+    'url(../img/c.png)',
+    'url(../img/js.png)',
+    'url(../img/html.png)',
+    'url(../img/css.png)',
+    'url(../img/react.png)',
+    'url(../img/angular.png)',
+    'url(../img/vue.png)',
+    'url(../img/php.png)',
+    'url(../img/python.png)',
+    'url(../img/java.png)',
+    'url(../img/c.png)',
   ],
   indexArr: [],
   randomizeCards() {
@@ -45,8 +45,8 @@ const game = {
       card.classList.add('card');
       cardRight.classList.add('card-right', 'opacity-one');
       cardLeft.classList.add('card-left', 'opacity-zero');
-      cardLeft.style.backgroundImage = `url(${
-      game.cardImages[game.indexArr[i]]})`;
+      cardLeft.style.backgroundImage = `${
+      game.cardImages[game.indexArr[i]]}`;
       container.appendChild(card);
       card.append(cardRight, cardLeft);
     }
