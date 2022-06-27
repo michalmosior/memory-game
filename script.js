@@ -4,7 +4,7 @@ const game = {
   cardsRight: '',
   activeCard: [],
   cardImages: [
-    '../img/js.png',
+    ../img/js.png,
     '../img/html.png',
     '../img/css.png',
     '../img/react.png',
