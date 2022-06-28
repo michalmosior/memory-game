@@ -45,7 +45,7 @@ const game = {
       card.classList.add('card');
       cardRight.classList.add('card-right', 'opacity-one');
       cardLeft.classList.add('card-left', 'opacity-zero');
-      cardLeft.style.backgroundImage =`url(./img/${game.cardImages[i]}.png)`;
+      cardLeft.style.backgroundImage =`url(./img/${game.cardImages[game.indexArr[i]]}.png)`;
       container.appendChild(card);
       card.append(cardRight, cardLeft);
     }
