@@ -4,26 +4,26 @@ const game = {
   cardsRight: '',
   activeCard: [],
   cardImages: [
-    'url(../img/js.png)',
-    'url(../img/html.png)',
-    'url(../img/css.png)',
-    'url(../img/react.png)',
-    'url(../img/angular.png)',
-    'url(../img/vue.png)',
-    'url(../img/php.png)',
-    'url(../img/python.png)',
-    'url(../img/java.png)',
-    'url(../img/c.png)',
-    'url(../img/js.png)',
-    'url(../img/html.png)',
-    'url(../img/css.png)',
-    'url(../img/react.png)',
-    'url(../img/angular.png)',
-    'url(../img/vue.png)',
-    'url(../img/php.png)',
-    'url(../img/python.png)',
-    'url(../img/java.png)',
-    'url(../img/c.png)',
+    'js',
+    'html',
+    'css',
+    'react',
+    'angular',
+    'vue',
+    'php',
+    'python',
+    'java',
+    'c',
+    'js',
+    'html',
+    'css',
+    'react',
+    'angular',
+    'vue',
+    'php',
+    'python',
+    'java',
+    'c',
   ],
   indexArr: [],
   randomizeCards() {
@@ -45,8 +45,7 @@ const game = {
       card.classList.add('card');
       cardRight.classList.add('card-right', 'opacity-one');
       cardLeft.classList.add('card-left', 'opacity-zero');
-      cardLeft.style.backgroundImage = `${
-      game.cardImages[game.indexArr[i]]}`;
+      cardLeft.style.backgroundImage =`url(./img/${game.cardImages[i]}.png)`;
       container.appendChild(card);
       card.append(cardRight, cardLeft);
     }
