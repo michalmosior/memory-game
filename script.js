@@ -34,7 +34,6 @@ const game = {
       } else {
         game.indexArr.push(sort)}
     }
-    console.log(game.indexArr)
   },
   createCards() {
     game.randomizeCards()
@@ -85,9 +84,6 @@ const game = {
       });
       game.activeCard = [];
     }
-  },
-  addPoint() {
-    console.log('ooo');
   },
 };
 
