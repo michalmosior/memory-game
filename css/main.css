@@ -24,7 +24,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+  background: linear-gradient(135deg, #ff57b9 0%, #a704fd 100%);
 }
 
 .container {
