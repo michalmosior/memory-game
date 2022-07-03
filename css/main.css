@@ -36,7 +36,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100vw;
-  max-width: 1200px;
+  max-width: 400px;
   height: 100vh;
   max-height: 800px;
   gap: 10px;
@@ -62,6 +62,7 @@ body {
   transition: transform 0.6s, opacity 1s;
   transition: transform 0.6s, opacity 1s, -webkit-transform 0.6s;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .card-right {
