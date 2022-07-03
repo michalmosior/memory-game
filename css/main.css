@@ -24,6 +24,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+  background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
 }
 
 .container {
@@ -66,12 +67,12 @@ body {
 }
 
 .card-right {
-  background: radial-gradient(circle, #020024 0%, #090979 85%, #0f4d59 100%);
+  background: linear-gradient(135deg, #5b247a 0%, #1bcedf 100%);
   z-index: 1;
 }
 
 .card-left {
-  background: #d9d6dc;
+  background: #bdbcbd;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

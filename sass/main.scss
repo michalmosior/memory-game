@@ -16,6 +16,7 @@ body,
 body {
 	align-items: center;
 	height: 100vh;
+	background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
 }
 .container {
 	align-content: center;
@@ -48,17 +49,12 @@ body {
 }
 
 .card-right {
-	background: radial-gradient(
-		circle,
-		rgba(2, 0, 36, 1) 0%,
-		rgba(9, 9, 121, 1) 85%,
-		rgba(15, 77, 89, 1) 100%
-	);
+	background: linear-gradient(135deg, #5b247a 0%, #1bcedf 100%);
 	z-index: 1;
 }
 
 .card-left {
-	background: rgb(217, 214, 220);
+	background: rgb(189, 188, 189);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;

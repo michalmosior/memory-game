@@ -80,7 +80,6 @@ const game = {
 				rotatedCard.classList.remove('opacity-one', 'active', 'rotate');
 				rotatedCard.previousSibling.classList.add('opacity-one');
 				rotatedCard.previousSibling.classList.remove('rotate');
-				/*rotatedCard.previousSibling.classList.add('opacity-zero')*/
 			});
 			game.activeCard = [];
 		} else if (game.activeCard[0] === game.activeCard[1]) {
